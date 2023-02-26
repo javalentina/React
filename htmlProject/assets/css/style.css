@@ -1,0 +1,15 @@
+
+table,th, td{
+    border:1px solid gray;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    color:gray;
+}
+
+a{
+    color:#000;
+}
+h2{
+    color:#222222;
+}
