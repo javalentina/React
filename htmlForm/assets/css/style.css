@@ -1,0 +1,28 @@
+section {
+    min-width: 560px;
+    width: 40%;
+}
+
+input,
+fieldset {
+    margin-bottom: 10px;
+}
+
+div {
+    padding: 10px 0px;
+}
+
+.span-2 {
+    float: left;
+    width: 50%;
+}
+.span-2 fieldset{
+    min-height:160px;
+}
+
+.span-1 {
+    display: block;
+    clear: both;
+    width: 100%;
+
+}

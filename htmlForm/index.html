@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/font/font.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Домашняя 2</title>
+</head>
+
+<body>
+    <section class="form">
+        <form action="action.html" method="get">
+            <div class="span-1">
+                <fieldset>
+                    <legend>Пользователь</legend>
+                    <label for="username">Имя:</label> <br>
+                    <input type="text" name="user" id="username" required>
+                    <br>
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <label for="tel">Телефон:</label> <br>
+                    <input type="tel" name="tel" id="tel" required>
+                </fieldset>
+            </div>
+            <div class="span-2">
+                <fieldset>
+                    <legend>Интересы</legend>
+                    <label for="frontend"><input type="checkbox" name="frontend" value="on"
+                            id="frontend">Frontend</label>
+                    <br>
+                    <label for="backend"><input type="checkbox" name="backend" value="on" id="backend">Backend</label>
+                    <br>
+                    <label for="qa"><input type="checkbox" name="qa" value="on" id="qa">QA</label>
+                    <br>
+                    <label for="database"><input type="checkbox" name="database" value="on"
+                            id="database">Database</label>
+                    <br>
+                    <label for="devOps"><input type="checkbox" name="devOps" value="on" id="devOps">DevOps</label>
+                </fieldset>
+            </div>
+            <div class="span-2">
+                <fieldset>
+                    <legend>Занятия</legend>
+                    <label for="morning"><input type="radio" name="time" value="morning" id="morning">Утром</label>
+                    <br>
+                    <label for="evening"><input type="radio" name="time" value="evening" id="evening">Вечером</label>
+                    <br>
+                    <label for="3TimesWeek"><input type="radio" name="time" value="3TimesWeek" id="3TimesWeek">3 раза в
+                        неделю</label>
+                    <br>
+                    <label for="everyDay"><input type="radio" name="time" value="everyDay" id="everyDay">каждый
+                        день</label>
+                </fieldset>
+            </div>
+            <div class="span-1">
+                <label for="operation">Выберите ваш уровень владения компьютером:</label>
+                <select name="operation" id="operation" required>
+                    <option value="1">Не владею</option>
+                    <option value="2">Владею как любитель</option>
+                    <option value="3">Владею как профи</option>
+                </select>
+            </div>
+            <div class="span-1">
+                <label for="textbox">Цель обучения:</label><br />
+                <textarea name="textbox" id="textbox" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
