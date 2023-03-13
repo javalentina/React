@@ -17,6 +17,9 @@ h1{
     font-size: 14px;
     font-weight: 400;
     color: #777;
+    background-color:#F5EEDC;
+    padding: 30px 10px 10px 10px;
+    margin-top: -40px;
 }
 h2{
     text-align: center;
