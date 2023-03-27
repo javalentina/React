@@ -29,6 +29,7 @@ function checkInput(){
     const firstName= document.getElementById("firstName");
     if (firstName && firstName.value.trim() === "" || lastName && lastName.value.trim() === "") {
         message.textContent ="Please check the Input fields";
+        message.style.color="red";
         return false;
       }   
       else{
