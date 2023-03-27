@@ -1,6 +1,6 @@
 "use strict";
 const bracketsInput = document.getElementById("bracketsInput");
-const button = document.getElementById("count");
+const count = document.getElementById("count");
 const result = document.getElementById("result");
 
 const brackets = {
@@ -47,13 +47,13 @@ function checkBrackets(str) {
       stack;
   }
 }
-button.addEventListener("click", function () {
+count.addEventListener("click", function () {
   const str = bracketsInput.value;
   checkBrackets(str);
 });
 
 bracketsInput.addEventListener("keydown", function (event) {
   if (event.key == "Enter") {
-    button.click();
+    count.click();
   }
 });
