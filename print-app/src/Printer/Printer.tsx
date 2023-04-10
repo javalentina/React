@@ -1,9 +1,9 @@
 import React from "react";
 import './Printer.css';
 
-type Props = { value: string };
+type Props = { peredaem: string };
 
-const Printer = ({ value }: Props) => {
-  return <div id="printer">{value}</div>;
+const Printer = ({ peredaem }: Props) => {
+  return <div id="printer">{peredaem}</div>;
 };
 export default Printer;

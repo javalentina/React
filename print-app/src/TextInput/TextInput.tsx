@@ -4,14 +4,14 @@ import './TextInput.css';
 
 
 const TextInput = () => {
-    let [value, setValue] = useState("");
+    let [textInput, setValue] = useState("");
     function handleChange(event: React.ChangeEvent<HTMLTextAreaElement>): void {
         setValue(event.target.value);
     }
 
     return (<div className="TextInput">
-        <textarea name='value' value={value} onChange={handleChange} placeholder="Print Something" />
-        <Printer value={value} />
+        <textarea name='value' value={textInput} onChange={handleChange} placeholder="Print Something" />
+        <Printer peredaem={textInput} />
     </div>
     );
 };
